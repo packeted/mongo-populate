@@ -38,8 +38,8 @@ db = getattr(client, parsed.mongo_db)
 
 # read these from the command line
 orgid = parsed.org_id
-userid = parsed.provider_id
-groupid = parsed.department_id
+userid = parsed.user_id
+groupid = parsed.group_id
 
 # Generate new unique IDs for the new dummy objects and store so documents can be linked
 customer1_id = ObjectId()
